@@ -1,13 +1,13 @@
-package com.example.FlightBooking.model.Repo.Service.impl;
+package com.example.FlightBooking.Service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.FlightBooking.Repo.BookingRepo;
+import com.example.FlightBooking.Service.BookingService;
 import com.example.FlightBooking.model.Booking;
-import com.example.FlightBooking.model.Repo.BookingRepo;
-import com.example.FlightBooking.model.Repo.Service.BookingService;
 
 @Service
 public class BookingServiceImpl implements BookingService {

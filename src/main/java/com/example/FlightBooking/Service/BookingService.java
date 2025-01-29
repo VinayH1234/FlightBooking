@@ -1,4 +1,4 @@
-package com.example.FlightBooking.model.Repo.Service;
+package com.example.FlightBooking.Service;
 
 import java.util.List;
 

@@ -7,11 +7,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import com.example.FlightBooking.Service.BookingService;
+import com.example.FlightBooking.Service.FlightService;
 import com.example.FlightBooking.model.Booking;
 import com.example.FlightBooking.model.Flight;
 import com.example.FlightBooking.model.User;
-import com.example.FlightBooking.model.Repo.Service.BookingService;
-import com.example.FlightBooking.model.Repo.Service.FlightService;
 
 import java.time.LocalDate;
 import java.util.List;

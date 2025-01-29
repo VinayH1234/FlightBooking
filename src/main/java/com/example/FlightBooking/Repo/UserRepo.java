@@ -1,4 +1,4 @@
-package com.example.FlightBooking.model.Repo;
+package com.example.FlightBooking.Repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
